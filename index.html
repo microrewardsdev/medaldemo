@@ -31,7 +31,6 @@
         camera-controls
         touch-action="pan-y"
         xr-environment
-        ar-placement="wall"
       >
         <div class="slider">
           <div class="slides">
@@ -42,7 +41,7 @@
                 background-image: url('../../assets/ShopifyModels/Chair.webp');
               "
             >
-              Coin</button
+              Medal</button
             ><button
               class="slide"
               onclick="switchSrc(this, 'Trophy Progress')"
@@ -188,19 +187,19 @@
       .slide {
         scroll-snap-align: start;
         flex-shrink: 0;
-        width: 100px;
-        height: 100px;
+        padding: 20px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: #ffa4a4;
+        background-color: #ffdd35;
         margin-right: 10px;
         border-radius: 10px;
         border: none;
         display: flex;
+        font-weight: bold;
       }
 
       .slide.selected {
